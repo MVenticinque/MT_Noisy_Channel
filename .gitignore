@@ -219,8 +219,10 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# csv
+# project specific
 *.csv
-docs
 *_files
 mt_slides.html
+*.pkl
+*.pt
+*.align

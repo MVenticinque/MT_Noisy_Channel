@@ -25,8 +25,7 @@ Translation is factored with Bayes' rule: `ê = argmax_e P(e) · P(f | e)`. A tr
 ├── docs/                  # slides (Quarto reveal.js)
 │   ├── mt_slides.qmd      # slide source
 │   ├── MT.css             # slide theme
-│   ├── imgs/
-│   └── _extensions/
+│   └── plots/
 ├── utils/
 │   ├── main_pipeline.py   # data prep, tokenization, eflomal, tables, decoder, tuning
 │   ├── ngram.py           # Kneser–Ney n-gram LM
