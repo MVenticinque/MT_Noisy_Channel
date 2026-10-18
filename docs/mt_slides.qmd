@@ -6,6 +6,8 @@ format:
   revealjs:
     theme: [default, MT.css]
     css: MT.css
+    logo: "https://www.brand.unict.it/img/LogoUniCT.webp"
+    footer: "Natural Language Processing Course"
     slide-number: true
     transition: slide
     width: 1280
@@ -15,6 +17,11 @@ format:
     controls: true
     title-slide-attributes:
       data-background-color: "#1E2761"
+    pointer:
+      pointerSize: 18
+      color: 'red'
+    revealjs-plugins:
+      - pointer
 ---
 
 ## The task
