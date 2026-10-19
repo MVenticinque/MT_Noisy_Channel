@@ -350,7 +350,6 @@ $$
 ## Fix attempt: Larger Beam
 
 - A thight beam (10 was used) might miss better scoring translations, does a wider search?
-
 - Results refer to trigram on `val_df` tokenized using SentencePiece
 
 ::: {style="font-size:0.75em;"}
